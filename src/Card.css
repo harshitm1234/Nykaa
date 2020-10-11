@@ -1,0 +1,25 @@
+.card-container {
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	width: 270px;
+	border: 1px solid black;
+	padding: 2%;
+	margin-bottom: 5%;
+}
+
+.card-container > img {
+	align-self: center;
+	height: 278px;
+	width: 260px;
+}
+
+@media only screen and (max-width: 768px) {
+	.card-container {
+		width: 170px;
+	}
+	.card-container > img {
+		height: 166px;
+		width: 160px;
+	}
+}
